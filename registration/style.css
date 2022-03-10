@@ -1,0 +1,50 @@
+.section{
+
+}
+.register{
+    width: 94%;
+    height: 100vh;
+    color: rgb(0, 5, 8);
+    background: rgb(248, 243, 237);
+    padding: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#registration{
+   color: blue;
+   font-weight: 800;
+}
+.first{
+   margin-left: 50px;
+}
+
+.sign_in{
+   text-align: center;
+}
+#signin{
+   color: blue;
+   font-weight: 800;
+}
+#btn{
+   border-radius: 5px;
+   padding: 4px;
+}
+#username{
+   font-size: 20px;
+}
+#password{
+   font-size: 20px;
+}
+input{
+   padding: 4px;
+}
+
+
+@media only screen and (max-width : 575px){
+   .register{
+      height: 130vh;
+   }
+   .sign_in{
+      text-align: center;
+   }
+}
